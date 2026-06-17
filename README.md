@@ -182,7 +182,7 @@ py main.py
 
 ## Resultados Obtenidos
 
-La aplicación permitió consumir datos abiertos de Colombia, almacenarlos en SQL Server, realizar operaciones CRUD, generar estadísticas y visualizar información mediante gráficos, cumpliendo con los requisitos planteados para el proyecto integrador.
+La aplicación permitio consumir datos abiertos de Colombia desde la base de datos llamada Delitos Informaticos y almacenarlos en SQL Server, realizar operaciones CRUD, generar estadísticas y visualizar información mediante gráficos, cumpliendo con los requisitos planteados para el proyecto integrador.
 
 ----------------------------------------------------------------------------------------------
 
