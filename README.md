@@ -188,8 +188,6 @@ La aplicación permitio consumir datos abiertos de Colombia desde la base de dat
 
 ## Conclusiones
 
-## Conclusiones
-
 * Aplicamos correctamente el patrón MVC, logrando una adecuada organización y separación de las responsabilidades dentro del proyecto.
 
 * Integramos exitosamente una API pública de Datos Abiertos de Colombia con una base de datos SQL Server para almacenar y gestionar la información obtenida.
