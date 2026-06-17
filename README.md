@@ -117,7 +117,7 @@ Genera gráficas utilizando la librería Matplotlib.
 
 ### 1. Clonar el repositorio
 
-git clone https://www.datos.gov.co/resource/wxd8-ucns.json?$limit=4000
+git clone https://github.com/Solutech01/DelitosInformaticos.git
 
 ### 2. Ingresar al proyecto
 
