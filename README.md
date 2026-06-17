@@ -1,4 +1,4 @@
-# Proyecto DatosColombia - DelitoS Informaticos
+# Proyecto DatosColombia - Delitos Informaticos
 
 ## Sistema de Análisis y Gestión de Datos Abiertos de Colombia
 
