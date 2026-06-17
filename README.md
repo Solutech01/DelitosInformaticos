@@ -146,7 +146,30 @@ registros
 py main.py
 
 ----------------------------------------------------------------------------------------
+## ¿Cómo utilizar el sistema?
 
+1. Ejecutar el archivo principal del proyecto mediante el comando:
+
+   python main.py
+
+2. Al iniciar la aplicación se mostrará el menú principal con las diferentes opciones disponibles.
+
+3. Seleccionar la opción deseada ingresando el número correspondiente.
+
+4. Dependiendo de la opción elegida, el sistema permitirá:
+
+   * Consultar datos abiertos de Colombia mediante la API.
+   * Registrar información en la base de datos SQL Server.
+   * Buscar registros almacenados.
+   * Actualizar información existente.
+   * Eliminar registros.
+   * Generar estadísticas.
+   * Visualizar gráficas de los datos obtenidos.
+
+5. Seguir las instrucciones que aparecen en pantalla para ingresar los datos solicitados.
+
+6. Utilizar la opción de salida para finalizar la ejecución del programa.
+-------------------------------------------------------------------------------------
 
 ## Evidencias
 
