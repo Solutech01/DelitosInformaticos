@@ -113,37 +113,112 @@ Genera gráficas utilizando la librería Matplotlib.
 
 ------------------------------------------------------------------------------------
 
-## Instalación
+# Instalación y ejecución
 
-### 1. Clonar el repositorio
+## Requisitos previos
 
+Antes de ejecutar el proyecto es necesario tener instalado:
+
+* Python 3.13 o superior.
+* SQL Server.
+* SQL Server Management Studio (SSMS).
+* Git.
+
+## Paso 1. Clonar el repositorio
+
+Abrir una terminal (CMD o PowerShell) y ejecutar:
+
+```bash
 git clone https://github.com/Solutech01/DelitosInformaticos.git
+```
 
-### 2. Ingresar al proyecto
+Esto descargará una copia del proyecto en el equipo local.
 
+## Paso 2. Ingresar a la carpeta del proyecto
+
+Ubicarse dentro de la carpeta descargada:
+
+```bash
 cd DatosColombia
+```
 
-### 3. Instalar dependencias
+## Paso 3. Instalar las dependencias
 
-pip install requests
+Una vez que el repositorio haya sido clonado y el usuario se encuentre dentro de la carpeta del proyecto, debe abrir una terminal (CMD, PowerShell o la terminal de VS Code) y verificar que la ruta actual corresponda a la carpeta `DatosColombia`.
 
-pip install pyodbc
+Por ejemplo:
 
-pip install matplotlib
+```text
+C:\Users\Usuario\Documents\DatosColombia>
+```
 
-### 4. Configurar SQL Server
+Si aún no se encuentra dentro de la carpeta del proyecto, debe ingresar con el siguiente comando:
 
-Crear la base de datos:
+```bash
+cd DatosColombia
+```
 
+Luego, ejecutar el siguiente comando para instalar todas las librerías necesarias definidas en el archivo `requirements.txt`:
+
+```bash
+pip install -r requirements.txt
+```
+
+Durante la instalación se descargarán e instalaran automáticamente las dependencias requeridas por el proyecto. Es importante esperar hasta que el proceso finalice correctamente y verificar que no se presenten mensajes de error en la terminal.
+
+Una vez completada la instalación, el proyecto estará listo para ejecutarse.
+
+## Paso 4. Crear la base de datos
+
+1. Abrir SQL Server Management Studio (SSMS).
+2. Conectarse al servidor SQL Server.
+3. Crear una nueva base de datos llamada:
+
+```sql
 DatosColombia
+```
 
-Crear la tabla:
+4. Ejecutar los scripts SQL incluidos en la carpeta del proyecto para crear las tablas necesarias.
 
-registros
+## Paso 5. Configurar la conexión a la base de datos
 
-### 5. Ejecutar el proyecto
+Abrir el archivo donde se encuentra la cadena de conexión y verificar:
 
-py main.py
+* Nombre del servidor.
+* Nombre de la base de datos.
+* Usuario y contraseña (si aplica).
+
+Ejemplo:
+
+```python
+server = "NOMBRE_SERVIDOR"
+database = "DatosColombia"
+```
+
+## Paso 6. Ejecutar el proyecto
+
+Desde la terminal ejecutar:
+
+```bash
+python main.py
+```
+
+## Paso 7. Utilizar el sistema
+
+Al iniciar la aplicación aparecerá el menú principal.
+
+Las opciones permiten:
+
+* Consultar datos abiertos de Colombia mediante la API.
+* Registrar información en la base de datos.
+* Buscar registros almacenados.
+* Actualizar registros existentes.
+* Eliminar registros.
+* Generar estadísticas.
+* Visualizar gráficas.
+
+Para utilizar cada función, ingresar el número de la opción correspondiente y seguir las instrucciones mostradas en pantalla.
+
 
 ----------------------------------------------------------------------------------------
 ## ¿Cómo utilizar el sistema?
