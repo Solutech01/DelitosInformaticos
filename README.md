@@ -150,7 +150,7 @@ py main.py
 
 ## Evidencias
 
-### Menu Inicial
+
 
 ![Menu Inicial](Evidencias/menu_inicial.png)
 
